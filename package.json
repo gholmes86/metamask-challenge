@@ -11,10 +11,10 @@
     "ios:e2e": "detox build --configuration ios.sim.debug && detox test --configuration ios.sim.debug --cleanup --workers 2"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-native": "0.63.4",
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.5",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-safe-area-view": "^1.1.1",
@@ -27,7 +27,8 @@
     "babel-jest": "^25.1.0",
     "detox": "17.14.9",
     "eslint": "^6.5.1",
-    "jest": "^25.1.0",
+    "jest": "^25.5.4",
+    "jest-cli": "^25.5.4",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1"
   },
